@@ -1,5 +1,6 @@
-# fltkhs-light-theme-skeleton
-This is a skeleton app to help get going with a light themed FLTKHS native GUI application. To install clone this repo then do:
+# fltkhs-clock-offset
+An app that shows how to create a `Clock` with time offset +- some number of
+seconds from system time.
 
     > stack build --flag fltkhs:bundled
-    > stack exec fltkhs-light-theme-skeleton
+    > stack exec fltkhs-clock-offset
